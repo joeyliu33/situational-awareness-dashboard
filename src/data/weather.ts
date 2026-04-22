@@ -1,0 +1,18 @@
+import type { WeatherData } from '../api/types';
+
+/* strictly follow the API Types */
+export const weatherData: WeatherData = {
+  city: 'Melbourne',
+  temperature: 32,
+  unit: 'C',
+  condition: 'partly-cloudy',
+  datetime: '2024-01-16T15:46:00+11:00',
+  humidity: 78,
+  chanceOfRain: 34,
+  windSpeed: 21,
+  windUnit: 'kmh',
+  tomorrow: {
+    temperature: 30,
+    condition: 'sunny',
+  },
+};
